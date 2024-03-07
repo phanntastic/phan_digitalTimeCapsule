@@ -1,10 +1,7 @@
 
-#navBar{
-    width: 100%;
-    height:58px;
-}
+
 .img-fluid{
-    position : fixed;
+    position :fixed;
     width: 46px;
     height: 46px;
     border-radius: 50%;
@@ -22,20 +19,51 @@
 }
 
 header{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    @font-face {
+        font-family:;
+        src: url();
+    }
+    font-size: 18px;
     text-align: right;
 }
 
 nav{
-    text-transform: uppercase;
     text-align: right
         float left;
-        margin-right: 40px;
+        padding-right: 30px;
         display: block;
         background-color: #dddddd;
         width: auto;
-      }
+        height: 60px;
+        border-radius: 25px;
+
+    
+}
+
+
+a{
+    position: relative;
+    color: black;
+    padding-left: 25px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+nav a::after{
+    content:"" ;
+    position: absolute;
+    background-color: orangered;
+    left: 12.5%;
+    bottom: -5px;
+    width: 0px;
+    height:3px;
+    transition:0.3s;
+}
+a:hover::after{
+    width: 75%;
+}
 
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -43,4 +71,16 @@ h1{
 
 h2{
     text-align: center;
+    font-size: 80px;
+
+}
+
+body {
+    background-image: url("/img/sutrofog.jpg");
+    background-size: 100% auto;
+}
+footer{
+    margin-top: 20%;
+    color: whitesmoke;
+    font-family:monospace;
 }
