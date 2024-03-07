@@ -11,12 +11,8 @@
     }
 
 
-img{
-    margin: auto;
-    display:flex;
-    width: 50%;
-    height: 50%;
-}
+
+
 
 
 body{
@@ -72,7 +68,27 @@ h1{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    
+    /* background-image: url(/activity/img/coyotehills.jpg); */
 }
 
-    
+h1#BG {
+    font-size: 60px;
+    text-shadow: black;
+}
+
+#bg {
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    background-image: url(/activity/img/coyotehills.jpg);
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin-top: 10px;
+}
