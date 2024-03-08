@@ -76,16 +76,91 @@ h1{
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 5%;
+    gap: 9.5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .Pics{
-    width: 50%;
+    width: 95%;
     display: flex;
     flex-direction: row;
+    margin: 2.5%;
     gap: 10%;
 }
 img{
     width: 35%;
     border-radius: 25px;
+}
+
+h1#BG {
+    font-size: 80px;
+    text-shadow: black;
+}
+#bg {
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    background-image: url(/interest/img/Singapore.jpg);
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.facebook{
+    content: url(/interest/img/Facebook_Icon.png);
+
+}
+
+.linkedin{
+    content: url(/interest/img/LinkedIn_Icon.png);
+}
+
+.instagram{
+  content: url(/interest/img/Instagram_Icon.png);
+
+}
+
+.avatar{
+    content: url(/interest/img/Avatar\ The\ Last\ Airbender.jpg)
+}
+
+.loki{
+    content: url(/interest/img/Loki\ Season\ 2\ Clock.jpg)
+}
+
+.starwars{
+    content: url(/interest/img/Star\ Wars\ -\ The\ Bad\ Batch\ Season\ 3.jpg)
+}
+
+.formula{
+    content: url(/interest/img/Formula\ 1.jpg)
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titleAndCard{
+    display:flex;
+    flex-direction: column;
 }
