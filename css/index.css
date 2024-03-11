@@ -54,7 +54,7 @@ a{
 nav a::after{
     content:"" ;
     position: absolute;
-    background-color: orangered;
+    background-color:#ff4f00;
     left: 12.5%;
     bottom: -5px;
     width: 0px;
@@ -76,7 +76,7 @@ h2{
 }
 
 body {
-    background-image: url("img/sutrofog.jpg");
+    background-image: url(/img/sutrofog.jpg);
     background-size: 100% auto;
 }
 footer{

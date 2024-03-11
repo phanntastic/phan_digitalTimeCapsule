@@ -29,7 +29,7 @@ a{
 nav a::after{
     content:"" ;
     position: absolute;
-    background-color: orangered;
+    background-color:#ff4f00;
     left: 12.5%;
     bottom: -5px;
     width: 0;
@@ -62,7 +62,7 @@ h1{
     
 } 
 
-/* #avatar {
+#avatar {
     margin: auto;
     height: 20%;
     border-radius: 25px;
@@ -71,7 +71,8 @@ h1{
 #loki {
     margin: auto;
     height: 20%;
-} */
+}
+
 .Info{
     display: flex;
     flex-direction: row;
@@ -163,4 +164,55 @@ h1#BG {
 .titleAndCard{
     display:flex;
     flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(red, green, blue, alpha);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+}
+
+.overlay-text:hover {
+    display: block;
 }

@@ -15,11 +15,6 @@
 
 
 
-body{
-    background-color: slategrey;
-
-    
-}
 
 header{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -52,7 +47,7 @@ a{
 nav a::after{
     content:"" ;
     position: absolute;
-    background-color:#66cdaa;
+    background-color:#ff4f00;
     left: 12.5%;
     bottom: -5px;
     width: 0;
