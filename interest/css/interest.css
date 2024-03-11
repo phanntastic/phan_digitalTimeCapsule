@@ -109,7 +109,7 @@ h1#BG {
 .container {
     display: flex;
     height: 600px;
-    background-image: url(/interest/img/Singapore.jpg);
+    background-image: url(../img/Singapore.jpg);
     background-size: cover;
     align-content: center;
     justify-content: center;
@@ -124,33 +124,33 @@ h1#BG {
 }
 
 .facebook{
-    content: url(/interest/img/Facebook_Icon.png);
+    content: url(../interest/img/Facebook_Icon.png);
 
 }
 
 .linkedin{
-    content: url(/interest/img/LinkedIn_Icon.png);
+    content: url(../interest/img/LinkedIn_Icon.png);
 }
 
 .instagram{
-  content: url(/interest/img/Instagram_Icon.png);
+  content: url(../interest/img/Instagram_Icon.png);
 
 }
 
 .avatar{
-    content: url(/interest/img/Avatar\ The\ Last\ Airbender.jpg)
+    content: url(../interest/img/Avatar\ The\ Last\ Airbender.jpg)
 }
 
 .loki{
-    content: url(/interest/img/Loki\ Season\ 2\ Clock.jpg)
+    content: url(../interest/img/Loki\ Season\ 2\ Clock.jpg)
 }
 
 .starwars{
-    content: url(/interest/img/Star\ Wars\ -\ The\ Bad\ Batch\ Season\ 3.jpg)
+    content: url(../interest/img/Star\ Wars\ -\ The\ Bad\ Batch\ Season\ 3.jpg)
 }
 
 .formula{
-    content: url(/interest/img/Formula\ 1.jpg)
+    content: url(../interest/img/Formula\ 1.jpg)
 }
 
 .center{

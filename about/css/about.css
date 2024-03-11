@@ -94,6 +94,7 @@ display: inline-block;
     border-color: teal;
     border-radius: 10px;
     padding-left: 10px;
+    margin-bottom: 300px;
 }
 .me{
     display: flex;
@@ -102,7 +103,7 @@ display: inline-block;
 .container {
     display: flex;
     height: 600px;
-    background-image: url(/about/img/Qantas.jpg);
+    background-image: url(../img/Qantas.jpg);
     background-size: cover;
     align-content: center;
     justify-content: center;

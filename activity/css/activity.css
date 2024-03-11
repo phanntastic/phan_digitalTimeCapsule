@@ -79,7 +79,7 @@ h1#BG {
 .container {
     display: flex;
     height: 600px;
-    background-image: url(/activity/img/coyotehills.jpg);
+    background-image: url(../img/coyotehills.jpg);
     background-size: cover;
     align-content: center;
     justify-content: center;
@@ -89,7 +89,9 @@ h1#BG {
 }
 
 .topsongs{
-   
-   margin: 20px;
+   margin-left: 80px;
   
+}
+.circles{
+    padding-left:10px;
 }
