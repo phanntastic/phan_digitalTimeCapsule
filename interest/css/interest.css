@@ -101,9 +101,9 @@ h1#BG {
 }
 
 .card {
-    width: 100%;
-    height: 100%;
+    width: 200px;
     border-radius: 10px;
+    
 }
 .card2{
     width: fit-content;
@@ -111,7 +111,7 @@ h1#BG {
 }
 
 .games{
-    width: 500px;
+    width: 200px;
 }
 
 .container {
@@ -132,34 +132,20 @@ h1#BG {
 }
 
 .facebook{
-    content: url(../interest/img/Facebook_Icon.png);
+    content: url(/interest/img/Facebook_Icon.png);
 
 }
 
 .linkedin{
-    content: url(../interest/img/LinkedIn_Icon.png);
+    content: url(/interest/img/LinkedIn_Icon.png);
 }
 
 .instagram{
-  content: url(../interest/img/Instagram_Icon.png);
+  content: url(/interest/img/Instagram_Icon.png);
 
 }
 
-/* .avatar{
-    content: url(../interest/img/Avatar\ The\ Last\ Airbender.jpg)
-}
 
-.loki{
-    content: url(../interest/img/Loki\ Season\ 2\ Clock.jpg)
-}
-
-.starwars{
-    content: url(../interest/img/Star\ Wars\ -\ The\ Bad\ Batch\ Season\ 3.jpg)
-}
-
-.formula{
-    content: url(../interest/img/Formula\ 1.jpg)
-} */
 
 .center{
     display: flex;
@@ -214,12 +200,10 @@ h1#BG {
 }
 
 .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 20px;
     text-align: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 .overlay-text:hover {
