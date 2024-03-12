@@ -51,17 +51,22 @@ a:hover::after{
     top: 14px;
     }
 
-
+body{
+    background-color:#eeeeee;
+}
 
 h1{
     text-align: center;
-    color: black;
+    color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     
     
 } 
 
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 /* #avatar {
     margin: auto;
     height: 20%;
@@ -83,12 +88,12 @@ h1{
     width: 95%;
     display: flex;
     flex-direction: row;
-    margin: 2.5%;
-    gap: 10%;
+    margin: 2%;
+    gap: 1px;
 }
 img{
     width: 35%;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 h1#BG {
@@ -112,12 +117,13 @@ h1#BG {
 
 .games{
     width: 200px;
+
 }
 
 .container {
     display: flex;
     height: 600px;
-    background-image: url(../img/Singapore.jpg);
+    background-image: url(../img/Qantas.jpg);
     background-size: cover;
     align-content: center;
     justify-content: center;

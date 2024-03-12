@@ -11,10 +11,9 @@
     }
 
 
-
-
-
-
+    body{
+        background-color:#eeeeee;
+    }
 
 header{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -60,7 +59,7 @@ a:hover::after{
 
 h1{
     text-align: center;
-    color: white;
+    color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     /* background-image: url(/activity/img/coyotehills.jpg); */
@@ -106,4 +105,31 @@ h1#BG {
 
 .onerepublic{
     padding-left: 20px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.facebook{
+    content: url(/interest/img/Facebook_Icon.png);
+
+}
+
+.linkedin{
+    content: url(/interest/img/LinkedIn_Icon.png);
+}
+
+.instagram{
+  content: url(/interest/img/Instagram_Icon.png);
+
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
