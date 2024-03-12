@@ -66,6 +66,7 @@ h1{
 
 h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
 /* #avatar {
     margin: auto;
@@ -116,7 +117,8 @@ h1#BG {
 }
 
 .games{
-    width: 200px;
+    width: 193px;
+    margin-left: -10px;
 
 }
 
@@ -189,3 +191,8 @@ h1#BG {
 .overlay-text:hover {
     display: block;
 } 
+
+.photos{
+    width: 450px;
+    margin-left: 20px;
+}
