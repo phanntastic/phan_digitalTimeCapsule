@@ -80,9 +80,10 @@ body {
     background-size: 100% auto;
 }
 footer{
-    margin-top: -35%;
+    margin-top: -30%;
     color: whitesmoke;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 .paperplane{
     margin-top: 10px;
@@ -91,3 +92,4 @@ footer{
 
     
 }
+
