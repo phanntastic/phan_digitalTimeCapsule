@@ -83,7 +83,7 @@ h2{
 
 .container {
     display: flex;
-    height: 600px;
+    height: 500px;
     background-image: url(../img/coyotehills.jpg);
     background-size: cover;
     align-content: center;
