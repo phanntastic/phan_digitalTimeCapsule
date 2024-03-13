@@ -80,7 +80,14 @@ body {
     background-size: 100% auto;
 }
 footer{
-    margin-top: 20%;
+    margin-top: -25%;
     color: whitesmoke;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paperplane{
+    margin-top: 10px;
+    background-image: url(../img/Paper-Plane-trace.gif);
+    background-size: cover auto
+
+    
 }
