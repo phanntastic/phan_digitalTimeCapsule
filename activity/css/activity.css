@@ -62,6 +62,7 @@ h1{
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    font-weight: 350;
     /* background-image: url(/activity/img/coyotehills.jpg); */
 }
 
@@ -73,6 +74,7 @@ h1#BG {
 h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
+    font-weight: 300;
     margin-bottom: 20px;
 
 }
@@ -136,6 +138,7 @@ h2{
 
 p{
     font-style: normal;
+    font-weight: 300;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 20px;
     margin-right: 20px;
