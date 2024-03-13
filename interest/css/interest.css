@@ -157,16 +157,16 @@ h1#BG {
 }
 
 .facebook{
-    content: url(/interest/img/Facebook_Icon.png);
+    content: url(../img/Facebook_Icon.png);
 
 }
 
 .linkedin{
-    content: url(/interest/img/LinkedIn_Icon.png);
+    content: url(../img/LinkedIn_Icon.png);
 }
 
 .instagram{
-  content: url(/interest/img/Instagram_Icon.png);
+  content: url(../img/Instagram_Icon.png);
 
 }
 
